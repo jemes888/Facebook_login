@@ -1,0 +1,163 @@
+/*font*/
+/*@font-face{
+	font-family: TahomaRegularfont;
+	src:url(../fonts/TahomaRegularfont.ttf);
+}*/
+/*font end*/
+body{
+    padding: 0;
+    margin: 0;
+    letter-spacing: .45px;
+    font-family: 'Padauk', sans-serif;
+
+}
+.header{
+    height: 105px;
+    background-color: #3E5B99;
+}
+.wrapper{
+    width: 73%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+    /*border: 1px solid;*/
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+.logo h1{
+    margin-top: 43px;
+    font-size: 39px;
+    font-family: tahoma;
+    color: white;
+}
+.form-1{
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    margin-top: 40px;
+    /*border: 2px solid;*/
+}
+.email1{
+    width: 35%;
+    /*border: 2px solid yellow;*/
+    float: left;
+    padding-left: 18%;
+}
+input[type="email"] {
+    border: 1px solid #1D2A5B;
+    height: 20px;
+}
+.password1{
+    width: 35%;
+    /*border: 2px solid red;*/
+    float: left;
+}
+.password1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+input[type="password"] {
+    border: 1px solid #1D2A5B;
+    height: 20px;
+}
+.submit{
+    width: 10%;
+    float: left;
+    margin-top: 18px;
+}
+button {
+    background-color: #3E5B99;
+    border: 1px solid #29487D;
+    height: 24px;
+    color: white;
+}
+.body_area{
+    background-color: #EDEFF6;
+}
+.image_area {
+    width: 53%;
+    float: left;
+}
+.image_area p{
+    margin-top: 50px;
+    font-size: 23px;
+    color: #3E5B99;
+}
+.image_area p{
+    width: 100%;
+}
+.form2{
+    width: 43%;
+    float: right;
+}
+.form2 h1{
+    font-size: 33px;
+    color: #333333;
+}
+.form2 p{
+    font-size: 20px;
+    color: black;
+}
+input#first_name {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    margin-right: 0px;
+    font-size: 20px;
+    width: 190px;
+    margin-right: 11px;
+}
+input#Surname {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    margin-right: 0px;
+    font-size: 20px;
+    width: 190px;
+}
+input#email {
+height: 35px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    margin-top: 11px;
+    font-size: 20px;
+    width: 398px;
+    margin-bottom: 11px;
+}
+input#password {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    margin-right: 0px;
+    font-size: 20px;
+    width: 398px;
+}
+ .short-text a{  float: right;
+    width: 54%;
+    margin-top: -20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.by-click{
+        width: 78%;
+}
+.by-click p {
+    font-size: 13px;
+    color: #666666;
+}
+.form2 button {
+    width: 151px;
+    height: 34px;
+    font-size: 17px;
+    background-color: #6CA858;
+    border-radius: 6px;
+    border: 2px solid #3B6E22;
+}
+h4 {
+    font-size: 13px;
+    color: #7C7B7D;
+    margin-top: 40px;
+}
